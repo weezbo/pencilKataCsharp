@@ -83,7 +83,7 @@ namespace PencilKata
                     paperText[i + paper.LastEditIndex] = replacement[i];
                 }
                 
-                else if (!Dull(replacement[i]) && paperText[i + paper.LastEditIndex] != ' ' && replacement[i] != ' ')
+                else if (!Dull(replacement[i]) && replacement[i] != ' ')
                 {
                     paperText[i + paper.LastEditIndex] = '@';
                 }
