@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a090b9ab-f100-4e82-9525-20af7b1ddeac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PencilKata/Eraser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKata/Eraser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilKataTest/EraserTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKataTest/EraserTest.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +17,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PencilKataTest/PencilTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
+            <state relative-caret-position="223">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <marker date="1550076111493" expanded="true" signature="6:69" ph="..." />
                 <marker date="1550076111493" expanded="true" signature="95:2507" ph="{...}" />
@@ -33,36 +35,42 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PencilKataTest/EraserTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+            <state relative-caret-position="309">
+              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
               <folding>
-                <marker date="1550077129199" expanded="true" signature="6:69" ph="..." />
-                <marker date="1550077129199" expanded="true" signature="95:936" ph="{...}" />
-                <marker date="1550077129199" expanded="true" signature="141:934" ph="{...}" />
-                <marker date="1550077129199" expanded="true" signature="246:509" ph="{...}" />
-                <marker date="1550077129199" expanded="true" signature="611:910" ph="{...}" />
+                <marker date="1550082018322" expanded="true" signature="6:69" ph="..." />
+                <marker date="1550082018322" expanded="true" signature="95:1789" ph="{...}" />
+                <marker date="1550082018322" expanded="true" signature="141:1787" ph="{...}" />
+                <marker date="1550082018322" expanded="true" signature="246:511" ph="{...}" />
+                <marker date="1550082018322" expanded="true" signature="613:914" ph="{...}" />
+                <marker date="1550082018322" expanded="true" signature="1039:1359" ph="{...}" />
+                <marker date="1550082018322" expanded="true" signature="1457:1763" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PencilKata/Eraser.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="67">
+              <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
-                <marker date="1550077970525" expanded="true" signature="6:47" ph="..." />
-                <marker date="1550077970525" expanded="true" signature="69:925" ph="{...}" />
-                <marker date="1550077970525" expanded="true" signature="95:923" ph="{...}" />
-                <marker date="1550077970525" expanded="true" signature="153:222" ph="{...}" />
-                <marker date="1550077970525" expanded="true" signature="275:675" ph="{...}" />
-                <marker date="1550077970525" expanded="true" signature="368:665" ph="{...}" />
-                <marker date="1550077970525" expanded="true" signature="726:917" ph="{...}" />
-                <marker date="1550077970525" expanded="true" signature="820:879" ph="{...}" />
+                <marker date="1550081865290" expanded="true" signature="6:47" ph="..." />
+                <marker date="1550081865290" expanded="true" signature="69:1422" ph="{...}" />
+                <marker date="1550081865290" expanded="true" signature="95:1420" ph="{...}" />
+                <marker date="1550081865290" expanded="true" signature="242:306" ph="{...}" />
+                <marker date="1550081865290" expanded="false" signature="367:436" ph="{...}" />
+                <marker date="1550081865290" expanded="true" signature="489:922" ph="{...}" />
+                <marker date="1550081865290" expanded="true" signature="615:912" ph="{...}" />
+                <marker date="1550081865290" expanded="false" signature="973:1164" ph="{...}" />
+                <marker date="1550081865290" expanded="true" signature="1067:1126" ph="{...}" />
+                <marker date="1550081865290" expanded="true" signature="1212:1414" ph="{...}" />
+                <marker date="1550081865290" expanded="true" signature="1264:1404" ph="{...}" />
+                <marker date="1550081865290" expanded="true" signature="1313:1390" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -100,7 +108,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PencilKata/Pencil.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
+            <state relative-caret-position="518">
               <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <marker date="1550076184951" expanded="true" signature="20:1586" ph="{...}" />
@@ -146,8 +154,8 @@
         <option value="$PROJECT_DIR$/PencilKataTest/PaperTest.cs" />
         <option value="$PROJECT_DIR$/PencilKataTest/PencilTest.cs" />
         <option value="$PROJECT_DIR$/PencilKata/Pencil.cs" />
-        <option value="$PROJECT_DIR$/PencilKataTest/EraserTest.cs" />
         <option value="$PROJECT_DIR$/PencilKata/Eraser.cs" />
+        <option value="$PROJECT_DIR$/PencilKataTest/EraserTest.cs" />
       </list>
     </option>
   </component>
@@ -236,12 +244,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550069452170</updated>
-      <workItem from="1550069453327" duration="8277000" />
+      <workItem from="1550069453327" duration="9372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8277000" />
+    <option name="totallyTimeSpent" value="9372000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -319,48 +327,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PencilKata/Pencil.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <marker date="1550076184951" expanded="true" signature="20:1586" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="46:1584" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="297:411" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="469:807" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="525:755" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="618:695" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="847:1284" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="897:954" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="985:1246" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="1051:1131" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="1152:1232" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="1315:1481" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="1353:1470" ph="{...}" />
-            <marker date="1550076184951" expanded="true" signature="1518:1560" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PencilKataTest/PencilTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="82" column="29" lean-forward="true" selection-start-line="82" selection-start-column="29" selection-end-line="82" selection-end-column="29" />
-          <folding>
-            <marker date="1550076111493" expanded="true" signature="6:69" ph="..." />
-            <marker date="1550076111493" expanded="true" signature="95:2507" ph="{...}" />
-            <marker date="1550076111493" expanded="true" signature="141:2505" ph="{...}" />
-            <marker date="1550076111493" expanded="true" signature="234:435" ph="{...}" />
-            <marker date="1550076111493" expanded="true" signature="552:779" ph="{...}" />
-            <marker date="1550076111493" expanded="true" signature="888:1115" ph="{...}" />
-            <marker date="1550076111493" expanded="true" signature="1218:1427" ph="{...}" />
-            <marker date="1550076111493" expanded="true" signature="1530:1803" ph="{...}" />
-            <marker date="1550076111493" expanded="true" signature="1907:2149" ph="{...}" />
-            <marker date="1550076111493" expanded="true" signature="2238:2490" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PencilKataTest/PaperTest.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -386,33 +352,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PencilKataTest/EraserTest.cs">
+    <entry file="file://$PROJECT_DIR$/PencilKataTest/PencilTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        <state relative-caret-position="223">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
-            <marker date="1550077129199" expanded="true" signature="6:69" ph="..." />
-            <marker date="1550077129199" expanded="true" signature="95:936" ph="{...}" />
-            <marker date="1550077129199" expanded="true" signature="141:934" ph="{...}" />
-            <marker date="1550077129199" expanded="true" signature="246:509" ph="{...}" />
-            <marker date="1550077129199" expanded="true" signature="611:910" ph="{...}" />
+            <marker date="1550076111493" expanded="true" signature="6:69" ph="..." />
+            <marker date="1550076111493" expanded="true" signature="95:2507" ph="{...}" />
+            <marker date="1550076111493" expanded="true" signature="141:2505" ph="{...}" />
+            <marker date="1550076111493" expanded="true" signature="234:435" ph="{...}" />
+            <marker date="1550076111493" expanded="true" signature="552:779" ph="{...}" />
+            <marker date="1550076111493" expanded="true" signature="888:1115" ph="{...}" />
+            <marker date="1550076111493" expanded="true" signature="1218:1427" ph="{...}" />
+            <marker date="1550076111493" expanded="true" signature="1530:1803" ph="{...}" />
+            <marker date="1550076111493" expanded="true" signature="1907:2149" ph="{...}" />
+            <marker date="1550076111493" expanded="true" signature="2238:2490" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PencilKata/Pencil.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <marker date="1550076184951" expanded="true" signature="20:1586" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="46:1584" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="297:411" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="469:807" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="525:755" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="618:695" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="847:1284" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="897:954" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="985:1246" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="1051:1131" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="1152:1232" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="1315:1481" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="1353:1470" ph="{...}" />
+            <marker date="1550076184951" expanded="true" signature="1518:1560" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PencilKata/Eraser.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="67">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
-            <marker date="1550077970525" expanded="true" signature="6:47" ph="..." />
-            <marker date="1550077970525" expanded="true" signature="69:925" ph="{...}" />
-            <marker date="1550077970525" expanded="true" signature="95:923" ph="{...}" />
-            <marker date="1550077970525" expanded="true" signature="153:222" ph="{...}" />
-            <marker date="1550077970525" expanded="true" signature="275:675" ph="{...}" />
-            <marker date="1550077970525" expanded="true" signature="368:665" ph="{...}" />
-            <marker date="1550077970525" expanded="true" signature="726:917" ph="{...}" />
-            <marker date="1550077970525" expanded="true" signature="820:879" ph="{...}" />
+            <marker date="1550081865290" expanded="true" signature="6:47" ph="..." />
+            <marker date="1550081865290" expanded="true" signature="69:1422" ph="{...}" />
+            <marker date="1550081865290" expanded="true" signature="95:1420" ph="{...}" />
+            <marker date="1550081865290" expanded="true" signature="242:306" ph="{...}" />
+            <marker date="1550081865290" expanded="false" signature="367:436" ph="{...}" />
+            <marker date="1550081865290" expanded="true" signature="489:922" ph="{...}" />
+            <marker date="1550081865290" expanded="true" signature="615:912" ph="{...}" />
+            <marker date="1550081865290" expanded="false" signature="973:1164" ph="{...}" />
+            <marker date="1550081865290" expanded="true" signature="1067:1126" ph="{...}" />
+            <marker date="1550081865290" expanded="true" signature="1212:1414" ph="{...}" />
+            <marker date="1550081865290" expanded="true" signature="1264:1404" ph="{...}" />
+            <marker date="1550081865290" expanded="true" signature="1313:1390" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PencilKataTest/EraserTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <marker date="1550082018322" expanded="true" signature="6:69" ph="..." />
+            <marker date="1550082018322" expanded="true" signature="95:1789" ph="{...}" />
+            <marker date="1550082018322" expanded="true" signature="141:1787" ph="{...}" />
+            <marker date="1550082018322" expanded="true" signature="246:511" ph="{...}" />
+            <marker date="1550082018322" expanded="true" signature="613:914" ph="{...}" />
+            <marker date="1550082018322" expanded="true" signature="1039:1359" ph="{...}" />
+            <marker date="1550082018322" expanded="true" signature="1457:1763" ph="{...}" />
           </folding>
         </state>
       </provider>

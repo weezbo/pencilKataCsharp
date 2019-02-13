@@ -5,6 +5,15 @@ namespace PencilKata
 {
     public class Eraser
     {
+        //properties
+        public int CurrentDurability { get; set; }
+        
+        //constructor
+        public Eraser(int durability)
+        {
+            CurrentDurability = durability;
+        }
+        
         public int Finder(string word, Paper paper)
         {
             return paper.Text.LastIndexOf(word);
@@ -12,6 +21,7 @@ namespace PencilKata
 
         public void Erase(string word, Paper paper)
         {
+            DegradeEraser(word);
             int startPoint = Finder(word, paper);
             if (startPoint > -1)
             {
@@ -31,6 +41,17 @@ namespace PencilKata
             }
 
             return spaces;
+        }
+
+        public void DegradeEraser(string word)
+        {
+            foreach (char letter in word)
+            {
+                if (letter != ' ')
+                {
+                    CurrentDurability--;
+                }
+            }
         }
     }
 }
