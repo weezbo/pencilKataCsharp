@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PencilKata;
 
 namespace PencilTest
 {
@@ -6,8 +7,11 @@ namespace PencilTest
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void WhenWriteMethodPassedAStringItReturnsString()
         {
+            Pencil pencil = new Pencil();
+            
+            Assert.AreEqual("Hello World!", pencil.Write("Hello World!"));
         }
     }
 }

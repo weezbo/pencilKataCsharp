@@ -14,7 +14,11 @@
     ],
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/maxwell/workspace/apprenticeship-katas/pencil/PencilKata/PencilKata/PencilKata.csproj": {
+            "projectPath": "/Users/maxwell/workspace/apprenticeship-katas/pencil/PencilKata/PencilKata/PencilKata.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
