@@ -2,15 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a090b9ab-f100-4e82-9525-20af7b1ddeac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PencilKata/Paper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PencilKataTest/PaperTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilKata.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKata.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PencilKata/Pencil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKata/Pencil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilTest/PencilTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PencilTest/PencilTest.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PencilTest/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilTest/obj/PencilTest.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PencilTest/obj/PencilTest.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilTest/obj/PencilTest.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PencilTest/obj/PencilTest.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilTest/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PencilTest/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilTest/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PencilTest/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilKata/obj/Debug/netcoreapp2.2/PencilKata.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKata/obj/Debug/netcoreapp2.2/PencilKata.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/PencilTest.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKataTest/PencilKataTest.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKataTest/PencilTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/Debug/netcoreapp2.2/PencilTest.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/Debug/netcoreapp2.2/PencilTest.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/Debug/netcoreapp2.2/PencilTest.Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/Debug/netcoreapp2.2/PencilTest.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/Debug/netcoreapp2.2/PencilTest.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/PencilTest.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/PencilTest.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/PencilTest.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilTest/obj/project.packagespec.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,30 +30,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PencilTest/UnitTest1.cs">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PencilKataTest/PencilTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="400">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
               <folding>
-                <marker date="1550069969840" expanded="true" signature="6:69" ph="..." />
-                <marker date="1550069969840" expanded="true" signature="91:387" ph="{...}" />
-                <marker date="1550069969840" expanded="true" signature="136:385" ph="{...}" />
-                <marker date="1550069969840" expanded="true" signature="229:379" ph="{...}" />
+                <marker date="1550072069649" expanded="true" signature="6:69" ph="..." />
+                <marker date="1550072069649" expanded="true" signature="95:757" ph="{...}" />
+                <marker date="1550072069649" expanded="true" signature="141:755" ph="{...}" />
+                <marker date="1550072069649" expanded="true" signature="234:432" ph="{...}" />
+                <marker date="1550072069649" expanded="true" signature="523:740" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PencilKata/Paper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+              <folding>
+                <marker date="1550070995963" expanded="true" signature="20:130" ph="{...}" />
+                <marker date="1550070995963" expanded="true" signature="45:128" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PencilKataTest/PaperTest.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+              <folding>
+                <marker date="1550072041261" expanded="true" signature="6:69" ph="..." />
+                <marker date="1550072041261" expanded="true" signature="96:821" ph="{...}" />
+                <marker date="1550072041261" expanded="true" signature="141:814" ph="{...}" />
+                <marker date="1550072041261" expanded="true" signature="225:432" ph="{...}" />
+                <marker date="1550072041261" expanded="true" signature="533:806" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PencilKata/Pencil.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="288">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
-                <marker date="1550070194472" expanded="true" signature="20:173" ph="{...}" />
-                <marker date="1550070194472" expanded="true" signature="46:171" ph="{...}" />
-                <marker date="1550070194472" expanded="true" signature="98:147" ph="{...}" />
+                <marker date="1550071971443" expanded="true" signature="20:607" ph="{...}" />
+                <marker date="1550071971443" expanded="true" signature="46:605" ph="{...}" />
+                <marker date="1550071971443" expanded="true" signature="186:243" ph="{...}" />
+                <marker date="1550071971443" expanded="true" signature="301:581" ph="{...}" />
+                <marker date="1550071971443" expanded="true" signature="357:493" ph="{...}" />
+                <marker date="1550071971443" expanded="true" signature="406:479" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -55,15 +98,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PencilKata/Paper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PencilKata/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PencilKataTest/PaperTest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PencilKata/Pencil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/PencilTest/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PencilKataTest/PencilTest.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/PencilTest/UnitTest1.cs" />
+        <option value="$PROJECT_DIR$/PencilTest/PaperTest.cs" />
+        <option value="$PROJECT_DIR$/PencilKataTest/PencilKataTest.csproj" />
+        <option value="$PROJECT_DIR$/PencilKata/Paper.cs" />
         <option value="$PROJECT_DIR$/PencilKata/Pencil.cs" />
+        <option value="$PROJECT_DIR$/PencilKataTest/PaperTest.cs" />
+        <option value="$PROJECT_DIR$/PencilKataTest/PencilTest.cs" />
       </list>
     </option>
   </component>
@@ -92,7 +142,7 @@
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="PencilKata" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="PencilTest" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PencilKataTest" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -152,12 +202,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550069452170</updated>
-      <workItem from="1550069453327" duration="729000" />
+      <workItem from="1550069453327" duration="2588000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="729000" />
+    <option name="totallyTimeSpent" value="2588000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -169,7 +219,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="988" extended-state="6" />
+    <frame x="1" y="23" width="1920" height="988" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -183,7 +233,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="bottom" id="Build" weight="0.32924107" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -227,27 +277,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PencilTest/UnitTest1.cs">
+    <entry file="file://$PROJECT_DIR$/PencilKataTest/PencilKataTest.csproj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1550069969840" expanded="true" signature="6:69" ph="..." />
-            <marker date="1550069969840" expanded="true" signature="91:387" ph="{...}" />
-            <marker date="1550069969840" expanded="true" signature="136:385" ph="{...}" />
-            <marker date="1550069969840" expanded="true" signature="229:379" ph="{...}" />
-          </folding>
+        <state relative-caret-position="112">
+          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PencilKata/Pencil.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="288">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
-            <marker date="1550070194472" expanded="true" signature="20:173" ph="{...}" />
-            <marker date="1550070194472" expanded="true" signature="46:171" ph="{...}" />
-            <marker date="1550070194472" expanded="true" signature="98:147" ph="{...}" />
+            <marker date="1550071971443" expanded="true" signature="20:607" ph="{...}" />
+            <marker date="1550071971443" expanded="true" signature="46:605" ph="{...}" />
+            <marker date="1550071971443" expanded="true" signature="186:243" ph="{...}" />
+            <marker date="1550071971443" expanded="true" signature="301:581" ph="{...}" />
+            <marker date="1550071971443" expanded="true" signature="357:493" ph="{...}" />
+            <marker date="1550071971443" expanded="true" signature="406:479" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PencilKata/Paper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+          <folding>
+            <marker date="1550070995963" expanded="true" signature="20:130" ph="{...}" />
+            <marker date="1550070995963" expanded="true" signature="45:128" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PencilKataTest/PaperTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <marker date="1550072041261" expanded="true" signature="6:69" ph="..." />
+            <marker date="1550072041261" expanded="true" signature="96:821" ph="{...}" />
+            <marker date="1550072041261" expanded="true" signature="141:814" ph="{...}" />
+            <marker date="1550072041261" expanded="true" signature="225:432" ph="{...}" />
+            <marker date="1550072041261" expanded="true" signature="533:806" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PencilKataTest/PencilTest.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <marker date="1550072069649" expanded="true" signature="6:69" ph="..." />
+            <marker date="1550072069649" expanded="true" signature="95:757" ph="{...}" />
+            <marker date="1550072069649" expanded="true" signature="141:755" ph="{...}" />
+            <marker date="1550072069649" expanded="true" signature="234:432" ph="{...}" />
+            <marker date="1550072069649" expanded="true" signature="523:740" ph="{...}" />
           </folding>
         </state>
       </provider>

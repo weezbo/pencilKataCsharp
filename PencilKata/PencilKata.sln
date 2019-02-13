@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PencilKata", "PencilKata\PencilKata.csproj", "{9889C141-FA58-4CF6-B05E-76A4D21BF43A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PencilTest", "PencilTest\PencilTest.csproj", "{44C14BE9-A222-4BC8-89BE-24C4132C3330}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PencilKataTest", "PencilKataTest\PencilKataTest.csproj", "{44C14BE9-A222-4BC8-89BE-24C4132C3330}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
