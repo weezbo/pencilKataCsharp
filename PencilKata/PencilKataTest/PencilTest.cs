@@ -16,14 +16,25 @@ namespace PencilKataTest
         }
 
         [TestMethod]
-        public void WhenWriteMethodCalledPencilDurabilityDecreases()
+        public void WhenWriteMethodCalledPencilDurabilityDecreasesByOneForNonSpaceCharacters()
+        {
+            Pencil pencil = new Pencil(20);
+            Paper paper = new Paper();
+
+            pencil.Write("hello world!", paper);
+            
+            Assert.AreEqual(9, pencil.Durability);
+        }
+        
+        [TestMethod]
+        public void WhenWriteMethodCalledDurabilityDecreasesByTwoForCapitals()
         {
             Pencil pencil = new Pencil(20);
             Paper paper = new Paper();
 
             pencil.Write("Hello World!", paper);
             
-            Assert.AreEqual(9, pencil.Durability);
+            Assert.AreEqual(7, pencil.Durability);
         }
         
     }

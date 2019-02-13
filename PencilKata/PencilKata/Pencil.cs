@@ -16,10 +16,17 @@ namespace PencilKata
             {
                 if (letter != ' ')
                 {
-                    Durability -= 1;
+                    if (letter >= 'A' && letter <= 'Z')
+                    {
+                        Durability -= 2;
+                    }
+                    else
+                    {
+                        Durability -= 1;
+                    }
                 }
+                paper.Text += letter;
             }
-            paper.Text += sentence;
             
             return sentence;
         }
