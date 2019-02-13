@@ -39,19 +39,7 @@ namespace PencilKataTest
             Assert.AreEqual(6, paper.LastEditIndex);
         }
 
-        [TestMethod]
-        public void WhenEditMethodCalledAddsCharsAtIndexWithoutCollision()
-        {
-            Pencil pencil = new Pencil(500, 5);
-            Paper paper = new Paper();
-            Eraser eraser = new Eraser(20);
-            
-            pencil.Write("Hello World", paper);
-            eraser.Erase("World", paper);
-            pencil.Edit("Howdy", paper);
-            
-            Assert.AreEqual("Hello Howdy", paper.Text);
-        }
+
 
     }
     

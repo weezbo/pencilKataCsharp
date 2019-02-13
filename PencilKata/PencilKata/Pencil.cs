@@ -69,15 +69,25 @@ namespace PencilKata
 
         public void Edit(string word, Paper paper)
         {
+            if (paper.LastEditIndex < 0)
+            {
+                Write(word, paper);
+            }
             StringBuilder paperText = new StringBuilder(paper.Text);
             StringBuilder replacement = new StringBuilder(word);
             for(int i = 0; i < word.Length; i++)
             {
                 
-                if (!Dull(replacement[i]))
+                if (!Dull(replacement[i]) && paperText[i + paper.LastEditIndex] == ' ')
                 {
                     paperText[i + paper.LastEditIndex] = replacement[i];
-                };
+                }
+                
+                else if (!Dull(replacement[i]) && paperText[i + paper.LastEditIndex] != ' ' && replacement[i] != ' ')
+                {
+                    paperText[i + paper.LastEditIndex] = '@';
+                }
+                
     
             }
 

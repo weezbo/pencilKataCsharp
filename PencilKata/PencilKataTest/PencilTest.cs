@@ -86,5 +86,47 @@ namespace PencilKataTest
             Assert.AreEqual(5, pencil.CurrentDurability);
         }
         
+        [TestMethod]
+        public void WhenEditMethodCalledAddsCharsAtIndexWithoutCollision()
+        {
+            Pencil pencil = new Pencil(500, 5);
+            Paper paper = new Paper();
+            Eraser eraser = new Eraser(20);
+            
+            pencil.Write("Hello World", paper);
+            eraser.Erase("World", paper);
+            pencil.Edit("Howdy", paper);
+            
+            Assert.AreEqual("Hello Howdy", paper.Text);
+        }
+
+        [TestMethod]
+        public void WhenEditMethodCalledIfCharsCollideExistingCharOverwrittenWithSpecialChar()
+        {
+            Pencil pencil = new Pencil(500, 5);
+            Paper paper = new Paper();
+            Eraser eraser = new Eraser(20);
+            
+            pencil.Write("Hello World", paper);
+            eraser.Erase("lo", paper);
+            pencil.Edit("Howdy", paper);
+            
+            Assert.AreEqual("HelHow@@rld", paper.Text);
+        }
+        
+        [TestMethod]
+        public void WhenEditMethodCalledIfOverwriteCharIsSpaceDoNotReplaceOriginalChar()
+        {
+            Pencil pencil = new Pencil(500, 5);
+            Paper paper = new Paper();
+            Eraser eraser = new Eraser(20);
+            
+            pencil.Write("Hello World", paper);
+            eraser.Erase("Wor", paper);
+            pencil.Edit("hey u", paper);
+            
+            Assert.AreEqual("Hello heyl@", paper.Text);
+        }
+        
     }
 }
