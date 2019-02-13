@@ -54,7 +54,7 @@ namespace PencilKataTest
             pencil.Write("hello world!", paper);
             eraser.Erase("hello world!", paper);
 
-            Assert.AreEqual("      world!", paper.Text);
+            Assert.AreEqual("hello w     ", paper.Text);
         }
         
         

@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics.Tracing;
+using System.Text;
 
 namespace PencilKata
 {
@@ -21,37 +22,43 @@ namespace PencilKata
 
         public void Erase(string word, Paper paper)
         {
-            DegradeEraser(word);
             int startPoint = Finder(word, paper);
             if (startPoint > -1)
             {
                 string frontPart = paper.Text.Substring(0, startPoint);
                 string backPart = paper.Text.Substring(startPoint);
-                string updated = backPart.Replace(word, generateSpaces(word));
+                string updated = backPart.Replace(word, GenerateSpaces(word));
                 paper.Text = frontPart + updated;
             }
         }
 
-        public string generateSpaces(string word)
+        public string GenerateSpaces(string word)
         {
-            string spaces = null;
-            for (int i = 0; i < word.Length; i++)
+            StringBuilder spaces = new StringBuilder(word);
+            for (int i = word.Length - 1; i >= 0; i--)
             {
-                spaces += " ";
-            }
+              
+                if (DegradeEraser(word[i]))
+                {
+                    spaces[i] = ' ';   
+                }
 
-            return spaces;
+            }
+            return spaces.ToString();
         }
 
-        public void DegradeEraser(string word)
+        private bool DegradeEraser(char letter)
         {
-            foreach (char letter in word)
+            if (CurrentDurability == 0)
             {
-                if (letter != ' ')
-                {
-                    CurrentDurability--;
-                }
+                return false;
             }
+            if (letter != ' ')
+            {
+               CurrentDurability--;
+            }
+
+            return true;
         }
     }
 }
