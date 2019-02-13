@@ -10,7 +10,7 @@ namespace PencilKataTest
         [TestMethod]
         public void WhenPencilWritesPaperStoresWriting()
         {
-            Pencil pencil = new Pencil(20);
+            Pencil pencil = new Pencil(20, 5);
             Paper paper = new Paper();
             pencil.Write("Hello World", paper);
             Assert.AreEqual("Hello World", paper.Text);
@@ -19,7 +19,7 @@ namespace PencilKataTest
         [TestMethod]
         public void WhenPencilWritesMorePaperStoresAdditionalWriting()
         {
-            Pencil pencil = new Pencil(20);
+            Pencil pencil = new Pencil(500, 5);
             Paper paper = new Paper();
             pencil.Write("Hello World", paper);
             pencil.Write(" How are you", paper);

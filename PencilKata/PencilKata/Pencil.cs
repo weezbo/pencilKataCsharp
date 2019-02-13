@@ -3,32 +3,66 @@ namespace PencilKata
     public class Pencil
     {
         //properties
-        public int Durability { get; set; }
+        public int CurrentDurability { get; set; }
+        public int OriginalDurability { get; set; }
+        public int Length { get; set; }
         
         //constructor
-        public Pencil(int durability)
+        public Pencil(int durability, int length)
         {
-            Durability = durability;
+            CurrentDurability = OriginalDurability = durability;
+            Length = length;
         }
         public string Write(string sentence, Paper paper)
         {
             foreach (char letter in sentence)
             {
-                if (letter != ' ')
+                char letterWritten = letter;
+                if (Dull(letter))
                 {
-                    if (letter >= 'A' && letter <= 'Z')
-                    {
-                        Durability -= 2;
-                    }
-                    else
-                    {
-                        Durability -= 1;
-                    }
-                }
-                paper.Text += letter;
+                    letterWritten = ' ';
+                };
+                paper.Text += letterWritten;
             }
             
             return sentence;
+        }
+
+        private bool Dull(char letter)
+        {
+            if (CurrentDurability <= 0)
+            {
+                return true;
+            }
+            if (letter != ' ')
+            {
+                if (letter >= 'A' && letter <= 'Z')
+                {
+                    CurrentDurability -= 2;
+                }
+                else
+                {
+                    CurrentDurability -= 1;
+                }
+            }
+
+            return false;
+
+        }
+
+        public void Sharpen()
+        {
+            if (Length > 0)
+            {
+                CurrentDurability = OriginalDurability;
+                ReduceLength(); 
+            }
+
+        }
+
+        private void ReduceLength()
+        {
+            Length--;
         }
         
         
