@@ -1,3 +1,5 @@
+using System.Text;
+
 namespace PencilKata
 {
     public class Pencil
@@ -64,7 +66,24 @@ namespace PencilKata
         {
             Length--;
         }
-        
-        
+
+        public void Edit(string word, Paper paper)
+        {
+            StringBuilder paperText = new StringBuilder(paper.Text);
+            StringBuilder replacement = new StringBuilder(word);
+            for(int i = 0; i < word.Length; i++)
+            {
+                
+                if (!Dull(replacement[i]))
+                {
+                    paperText[i + paper.LastEditIndex] = replacement[i];
+                };
+    
+            }
+
+            paper.Text = paperText.ToString();
+
+
+        }
     }
 }

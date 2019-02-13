@@ -17,7 +17,8 @@ namespace PencilKata
         
         public int Finder(string word, Paper paper)
         {
-            return paper.Text.LastIndexOf(word);
+            paper.LastEditIndex = paper.Text.LastIndexOf(word);
+            return paper.LastEditIndex;
         }
 
         public void Erase(string word, Paper paper)
