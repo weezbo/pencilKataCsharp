@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a090b9ab-f100-4e82-9525-20af7b1ddeac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PencilKata/Eraser.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PencilKataTest/EraserTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PencilKata/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilKata/Pencil.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKata/Pencil.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilKata/obj/PencilKata.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKata/obj/PencilKata.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilKata/obj/PencilKata.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKata/obj/PencilKata.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilKata/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKata/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilKataTest/PaperTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKataTest/PaperTest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PencilKataTest/PencilTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKataTest/PencilTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PencilKata/Eraser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PencilKata/Eraser.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PencilKataTest/EraserTest.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="261">
+              <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
               <folding>
                 <marker date="1550077129199" expanded="true" signature="6:69" ph="..." />
                 <marker date="1550077129199" expanded="true" signature="95:936" ph="{...}" />
@@ -58,16 +49,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PencilKata/Eraser.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="181">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
-                <marker date="1550077130043" expanded="true" signature="55:302" ph="{...}" />
-                <marker date="1550077130043" expanded="true" signature="81:300" ph="{...}" />
-                <marker date="1550077130043" expanded="true" signature="139:208" ph="{...}" />
-                <marker date="1550077130043" expanded="true" signature="261:294" ph="{...}" />
+                <marker date="1550077970525" expanded="true" signature="6:47" ph="..." />
+                <marker date="1550077970525" expanded="true" signature="69:925" ph="{...}" />
+                <marker date="1550077970525" expanded="true" signature="95:923" ph="{...}" />
+                <marker date="1550077970525" expanded="true" signature="153:222" ph="{...}" />
+                <marker date="1550077970525" expanded="true" signature="275:675" ph="{...}" />
+                <marker date="1550077970525" expanded="true" signature="368:665" ph="{...}" />
+                <marker date="1550077970525" expanded="true" signature="726:917" ph="{...}" />
+                <marker date="1550077970525" expanded="true" signature="820:879" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -151,8 +146,8 @@
         <option value="$PROJECT_DIR$/PencilKataTest/PaperTest.cs" />
         <option value="$PROJECT_DIR$/PencilKataTest/PencilTest.cs" />
         <option value="$PROJECT_DIR$/PencilKata/Pencil.cs" />
-        <option value="$PROJECT_DIR$/PencilKata/Eraser.cs" />
         <option value="$PROJECT_DIR$/PencilKataTest/EraserTest.cs" />
+        <option value="$PROJECT_DIR$/PencilKata/Eraser.cs" />
       </list>
     </option>
   </component>
@@ -241,12 +236,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550069452170</updated>
-      <workItem from="1550069453327" duration="7487000" />
+      <workItem from="1550069453327" duration="8277000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7487000" />
+    <option name="totallyTimeSpent" value="8277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,6 +254,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1920" height="988" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -390,29 +386,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PencilKata/Eraser.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <marker date="1550077130043" expanded="true" signature="55:302" ph="{...}" />
-            <marker date="1550077130043" expanded="true" signature="81:300" ph="{...}" />
-            <marker date="1550077130043" expanded="true" signature="139:208" ph="{...}" />
-            <marker date="1550077130043" expanded="true" signature="261:294" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PencilKataTest/EraserTest.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="261">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding>
             <marker date="1550077129199" expanded="true" signature="6:69" ph="..." />
             <marker date="1550077129199" expanded="true" signature="95:936" ph="{...}" />
             <marker date="1550077129199" expanded="true" signature="141:934" ph="{...}" />
             <marker date="1550077129199" expanded="true" signature="246:509" ph="{...}" />
             <marker date="1550077129199" expanded="true" signature="611:910" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PencilKata/Eraser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1550077970525" expanded="true" signature="6:47" ph="..." />
+            <marker date="1550077970525" expanded="true" signature="69:925" ph="{...}" />
+            <marker date="1550077970525" expanded="true" signature="95:923" ph="{...}" />
+            <marker date="1550077970525" expanded="true" signature="153:222" ph="{...}" />
+            <marker date="1550077970525" expanded="true" signature="275:675" ph="{...}" />
+            <marker date="1550077970525" expanded="true" signature="368:665" ph="{...}" />
+            <marker date="1550077970525" expanded="true" signature="726:917" ph="{...}" />
+            <marker date="1550077970525" expanded="true" signature="820:879" ph="{...}" />
           </folding>
         </state>
       </provider>
